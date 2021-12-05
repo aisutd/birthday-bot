@@ -1,0 +1,20 @@
+{
+  "name": "calendar-converter",
+  "version": "1.0.0",
+  "author": "David Ricehy",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node build/birthday.js"
+  },
+  "dependencies": {
+    "@js-joda/core": "^3.2.0",
+    "@js-joda/timezone": "^2.5.0",
+    "axios": "^0.21.1",
+    "googleapis": "^67.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.5"
+  }
+}

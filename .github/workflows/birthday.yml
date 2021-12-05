@@ -44,4 +44,4 @@ jobs:
           BIRTHDAY_SPREADSHEET_ID: ${{ secrets.BIRTHDAY_SPREADSHEET_ID }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
         run: |
-          npm run birthday
+          npm start

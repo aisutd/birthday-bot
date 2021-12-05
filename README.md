@@ -16,6 +16,7 @@ Birthday bot that reads names & dates from a google sheet & posts birthday messa
 
 ```
 export GOOGLE_APPLICATION_CREDENTIALS=/path/to/birthday-bot-credentials.json
+export BIRTHDAY_SPREADSHEET_ID=https://docs.google.com/spreadsheets/d/BIRTHDAY_SPREADSHEET_ID
 export SLACK_CHANNEL_ID=birthday-bot-channel-id
 ```
 
